@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Moirai+One&display=swap");
+
+/* 響應式 */
+@media (max-width: 768px) {
+  .item-title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .item-title {
+    font-size: 14px;
+  }
+}
+
+h1 {
+  font-family: "Moirai One", system-ui;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.warp {
+  background-color: #a9a9a9;
+}
+.haruko {
+  width: 10%;
+  height: auto;
+}
+
+video {
+  aspect-ratio: 1;
+  background-color: black;
+  border-radius: 8px;
+}
+
+.nav-button {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  color: #ffffff !important; /* 添加 !important 确保颜色应用 */
+  background-color: #a9a9a900 !important; /* 添加 !important 确保背景色应用 */
+  border: 0;
+}
+
+.nav-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nav-menu li {
+  transition: background-color 0.4s ease-out, color 0.4s ease-out;
+}
+
+.nav-menu li:hover {
+  background-color: rgba(202, 202, 202, 0.627);
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #333333b6;
+  display: block; /* 讓 <a> 元素佔據整個 <li> 區域 */
+  padding: 10px; /* 添加內邊距以增加點擊區域 */
+  transition: background-color 0.4s ease-out, color 0.4s ease-out;
+}
+
+.nav-menu li:hover a {
+  color: #ffffff;
+}
+
+.four {
+  background-color: #f8f9fa;
+  border: 0;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #a9a9a9 /* #f8f9fa */;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  text-align: center;
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.item-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  color: #333;
+}
+
+.img-fluid {
+  animation-iteration-count: infinite;
+}

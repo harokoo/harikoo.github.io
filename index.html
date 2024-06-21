@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HARUKO - PORTFOLIO</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link href="./css/desktop.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="warp">
+      <h1><img src="./img/頭貼.png" class="haruko" />HARUKO's Portfolio</h1>
+    </div>
+    <nav>
+      <button class="nav-button">
+        <!--選單開始-->
+        <img src="./google icon/menu_24dp_FILL0_wght400_GRAD0_opsz24.svg" />
+      </button>
+      <ul class="nav-menu hide">
+        <li>
+          <a href="https://www.instagram.com/f.studio22_/" target="_blank"
+            >logotype</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/f.studio22_/" target="_blank"
+            >graphic</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/f.studio22_/" target="_blank"
+            >illustration</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/francc.03__/" target="_blank"
+            >photography</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/f.studio22_/" target="_blank"
+            >3D animation</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/f.studio22_/" target="_blank"
+            >2D animation</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!--選單結束-->
+
+    <div class="container">
+      <!--作品種類項目開始-->
+      <div class="row my-3">
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="item">
+            <button class="four">
+              <img
+                src="./img/logotype-01.jpg"
+                class="img-fluid"
+                alt="logotype"
+              />
+              <p class="item-title">logotype</p>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="item">
+            <button class="four">
+              <img src="./img/芝麻鮮奶油.jpg" class="img-fluid" alt="grapgic" />
+              <p class="item-title">grapgic</p>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="item">
+            <button class="four">
+              <img src="./img/memecat.jpg" class="img-fluid" alt="" />
+              <p class="item-title">illustration</p>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="item">
+            <button class="four">
+              <img src="./img/pho.jpg" class="img-fluid" alt="" />
+              <p class="item-title">photography</p>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="item">
+            <button class="four">
+              <video class="img-fluid" autoplay muted loop>
+                <source
+                  src="./img/RPReplay_Final1706719194拷貝.mp4"
+                  type="video/mp4"
+                />
+              </video>
+              <p class="item-title">3D animation</p>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+          <div class="item">
+            <button class="four">
+              <video class="img-fluid" autoplay muted loop>
+                <source src="./img/mydream.mp4" type="video/mp4" />
+              </video>
+              <p class="item-title">2D animation</p>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--作品種類項目結束-->
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      let myNav = document.querySelector(".nav-menu");
+      let myButton = document.querySelector(".nav-button");
+      myButton.addEventListener("click", function () {
+        myNav.classList.toggle("hide");
+      });
+    </script>
+  </body>
+</html>
